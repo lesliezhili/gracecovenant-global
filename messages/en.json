@@ -1,0 +1,397 @@
+{
+  "common": {
+    "appName": "GraceCovenant",
+    "tagline": "Find a fellow believer in the love of Christ",
+    "mission": "Helping Chinese communities build Christ-centred marriages, families, and discipleship",
+    "save": "Save",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "success": "Success!",
+    "required": "Required",
+    "anonymous": "Anonymous"
+  },
+  "nav": {
+    "home": "Home",
+    "matches": "Matches",
+    "prayer": "Prayer Wall",
+    "testimony": "Testimonies",
+    "courses": "Premarital Courses",
+    "membership": "Membership",
+    "profile": "My Profile",
+    "login": "Sign in",
+    "register": "Sign up",
+    "logout": "Sign out",
+    "lang_en": "English",
+    "lang_zh_cn": "简体",
+    "lang_zh_tw": "繁體"
+  },
+  "home": {
+    "heroTitle": "✝ GraceCovenant",
+    "heroSubtitle": "Find a fellow believer in the love of Christ",
+    "heroDesc": "Helping Chinese communities build Christ-centred marriages, families, and discipleship",
+    "ctaStart": "Start matching",
+    "ctaLearnMore": "Learn more",
+    "stats": {
+      "members": "Registered members",
+      "matched": "Successful matches",
+      "testimonies": "Marriage testimonies",
+      "churches": "Partner churches"
+    },
+    "features": {
+      "title": "Core Features",
+      "church": {
+        "title": "Church Verification",
+        "desc": "Increase trust through pastor or church recommendations"
+      },
+      "ai": {
+        "title": "AI Matching",
+        "desc": "Faith, personality, and family values based matching"
+      },
+      "prayer": {
+        "title": "Prayer Community",
+        "desc": "Stand together in prayer and encouragement"
+      },
+      "courses": {
+        "title": "Premarital Courses",
+        "desc": "Focus on the Family course pathway"
+      },
+      "global": {
+        "title": "Global Chinese Community",
+        "desc": "Australia · Canada · USA · Singapore"
+      },
+      "testimony": {
+        "title": "Marriage Testimonies",
+        "desc": "Stories of God’s grace in covenant relationships"
+      }
+    },
+    "verse": "“Trust in the Lord with all your heart and lean not on your own understanding.” — Proverbs 3:5",
+    "viewAll": "View all",
+    "search": {
+      "countryPlaceholder": "Select your country",
+      "findMatches": "Find Matches"
+    }
+  },
+  "matches": {
+    "title": "Matches",
+    "subtitle": "Smart matching based on faith maturity, family vision, and life calling",
+    "loginRequired": "Please sign in to view matches",
+    "filter": {
+      "title": "Filters",
+      "ageRange": "Age range",
+      "location": "Location",
+      "denomination": "Denomination",
+      "all": "All",
+      "allGenders": "All",
+      "brother": "Brother",
+      "sister": "Sister"
+    },
+    "found": "{count} matches found",
+    "matchScore": "AI match score",
+    "connect": "Connect",
+    "pray": "Pray for them",
+    "openRelocation": "Open to relocation",
+    "fixed": "Fixed location",
+    "baptised": "Baptised",
+    "sent": "Sent",
+    "prayed": "Prayed"
+  },
+  "prayer": {
+    "title": "Prayer Wall",
+    "verse": "“Whatever you ask in prayer, believe that you have received it, and it will be yours.” — Mark 11:24",
+    "submitTitle": "Share a prayer request",
+    "prayerLabel": "Prayer request",
+    "prayerPlaceholder": "Share your prayer need here...",
+    "category": "Category",
+    "categories": {
+      "marriage": "Marriage",
+      "family": "Family",
+      "faith": "Faith Growth",
+      "general": "General",
+      "platform": "Platform"
+    },
+    "amen": "Pray",
+    "praying": "praying",
+    "submitted": "Prayer request submitted. Thank you for standing in prayer."
+  },
+  "testimony": {
+    "title": "Marriage Testimonies",
+    "verse": "“Make known among the nations what he has done.” — Psalm 105:1",
+    "count": "{count} testimonies",
+    "verified": "Verified",
+    "pending": "Pending review",
+    "shareTitle": "Share your testimony",
+    "coupleNames": "Couple names",
+    "city": "City",
+    "weddingYear": "Wedding year",
+    "favouriteVerse": "Favourite verse",
+    "story": "Story",
+    "storyPlaceholder": "Share how God brought you together...",
+    "submitSuccess": "Thank you for sharing. Your testimony will be published after review."
+  },
+  "courses": {
+    "title": "Premarital Courses",
+    "subtitle": "Provided by Focus on the Family and GraceCovenant",
+    "verse": "“Can two walk together unless they are agreed?” — Amos 3:3",
+    "enrol": "Enroll",
+    "enrolled": "Enrolled! The course link will be shared soon."
+  },
+  "profile": {
+    "title": "My Profile",
+    "spiritual": {
+      "title": "Spiritual Profile",
+      "denomination": "Denomination",
+      "church": "Church",
+      "baptismYear": "Baptism year",
+      "regularAttendance": "Regular church attendance",
+      "ministry": "Ministry",
+      "faithMaturity": "Faith maturity",
+      "maturityLevels": {
+        "new": "New believer",
+        "growing": "Growing",
+        "mature": "Mature",
+        "leader": "Leader"
+      }
+    },
+    "relationship": {
+      "title": "Relationship Profile",
+      "age": "Age",
+      "location": "Location",
+      "marriageHistory": "Marriage history",
+      "hasChildren": "Has children",
+      "familyVision": "Family vision",
+      "familyVisionPlaceholder": "Describe your vision for a Christ-centred family...",
+      "lifeMission": "Life calling",
+      "openRelocation": "Open to relocation",
+      "histories": {
+        "never": "Never married",
+        "divorced": "Divorced",
+        "widowed": "Widowed"
+      }
+    },
+    "verification": {
+      "title": "Church Verification",
+      "info": "Upload church membership proof or a pastor recommendation to receive a verification badge",
+      "certType": "Verification type",
+      "upload": "Upload file",
+      "submitVerification": "Submit verification",
+      "successMsg": "Verification submitted. Review usually completes within 3 business days.",
+      "types": {
+        "membership": "Church membership proof",
+        "pastor": "Pastor recommendation letter",
+        "baptism": "Baptism certificate"
+      }
+    }
+  },
+  "auth": {
+    "loginTitle": "Sign in",
+    "registerTitle": "Sign up",
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "Password (8+ characters)",
+    "fullName": "Full name",
+    "gender": "Gender",
+    "genderBrother": "Brother",
+    "genderSister": "Sister",
+    "country": "Country",
+    "church": "Church (optional)",
+    "agree1": "✝ I will use this platform with Christ-centred values",
+    "agree2": "💍 I am seeking marriage intentionally",
+    "agree3": "📋 I agree to the privacy policy",
+    "loginBtn": "Sign in",
+    "registerBtn": "Sign up",
+    "noAccount": "Don’t have an account?",
+    "hasAccount": "Already have an account?",
+    "welcome": "Welcome back",
+    "loginSuccess": "Signed in successfully!",
+    "registerSuccess": "Registration successful! Please complete your profile.",
+    "fillAllFields": "Please complete all required fields and accept the terms"
+  },
+  "membership": {
+    "title": "Membership Plans",
+    "subtitle": "All features are free forever. Supporters help keep the platform running.",
+    "free": {
+      "name": "Free Member",
+      "price": "Free",
+      "desc": "Full access to all features",
+      "features": [
+        "Browse & connect with matches",
+        "Prayer wall",
+        "Marriage testimonies",
+        "Premarital courses",
+        "Church verification badge"
+      ]
+    },
+    "supporter": {
+      "name": "Supporter",
+      "price": "$5 / month",
+      "desc": "Keep the platform running",
+      "features": [
+        "Everything in Free",
+        "Supporter badge on profile",
+        "Priority match suggestions",
+        "Help cover hosting costs",
+        "Cancel anytime"
+      ]
+    },
+    "church": {
+      "name": "Partner Church",
+      "price": "Free",
+      "desc": "For churches serving their singles",
+      "features": [
+        "Church listing on platform",
+        "Verified church badge for members",
+        "Announce events to members",
+        "Bulk invite church singles"
+      ]
+    },
+    "currentPlan": "Current plan",
+    "getStarted": "Support now",
+    "contactUs": "Contact us",
+    "processing": "Processing...",
+    "thankYou": "Thank you for your support! Your Supporter badge will appear on your profile shortly.",
+    "canceled": "Payment was canceled. You can try again anytime — all features remain free.",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "Is GraceCovenant really free?",
+      "a1": "Yes — all core features are free. We believe every Christian deserves access to a Christ-centred community regardless of finances.",
+      "q2": "Why become a Supporter?",
+      "a2": "Your $5/month helps cover email costs, hosting, and future features. You also get a badge and priority matching. Cancel anytime.",
+      "q3": "How do I become a Partner Church?",
+      "a3": "Contact us at hello@gracecovenant.org with your church name and pastor contact. Verification takes 3–5 business days."
+    }
+  },
+  "footer": {
+    "tagline": "Building Christ-centred families for Chinese communities worldwide",
+    "copyright": "Every Christian deserves a Christ-centred family.",
+    "platform": "Platform",
+    "inspiredBy": "Inspired by SilverConnect-Global",
+    "verse": "“Love one another. As I have loved you, so you must love one another.”",
+    "verseRef": "— John 13:34",
+    "phledgerDesc": "PHLedger helps organisations design and deliver modern data platforms — Databricks Lakehouse, AI-ready data foundations, financial reporting automation, and DevOps for data."
+  },
+  "header": {
+    "verse": "“Two are better than one... a cord of three strands is not quickly broken.” — Ecclesiastes 4:9,12"
+  },
+  "idVerify": {
+    "title": "身份验证",
+    "subtitle": "身份验证有助于建立信任，保护平台安全。所有文件均加密存储，仅用于验证目的。",
+    "overallStatus": "验证状态",
+    "pending": "待审核",
+    "verified": "已验证 ✅",
+    "rejected": "未通过 ❌",
+    "dlSection": "驾照（本地居民）",
+    "dlNumber": "驾照号码",
+    "dlState": "签发州/省",
+    "dlExpiry": "到期日期",
+    "dlUpload": "上传驾照正反面",
+    "passportSection": "护照（所有人，特别是国际用户）",
+    "passportNumber": "护照号码",
+    "passportCountry": "签发国家",
+    "passportExpiry": "到期日期",
+    "passportUpload": "上传护照首页",
+    "visaSection": "签证（非公民/永久居民）",
+    "visaType": "签证类型",
+    "visaTypes": {
+      "PR": "永久居民 (PR)",
+      "Citizen": "公民",
+      "StudentVisa": "学生签证",
+      "WorkVisa": "工作签证",
+      "SpouseVisa": "配偶签证",
+      "Other": "其他签证"
+    },
+    "visaNumber": "签证号码",
+    "visaExpiry": "签证到期日",
+    "visaUpload": "上传签证页",
+    "baptismSection": "受洗证书（如适用）",
+    "isBaptized": "我已受洗",
+    "baptismYear": "受洗年份",
+    "baptismChurch": "受洗教会",
+    "baptismUpload": "上传受洗证书（可选）",
+    "baptismNote": "受洗证书有助于显示 ✝ 认证标志，提升配对优先级。",
+    "submitId": "提交身份验证",
+    "submitSuccess": "✅ 身份验证文件已提交，将在3个工作日内审核。",
+    "privacy": "🔒 您的身份文件仅用于平台身份验证，绝不与第三方共享。"
+  },
+  "partnerPrefs": {
+    "title": "理想伴侣偏好",
+    "subtitle": "帮助我们的AI更准确地为您匹配志同道合的人。诚实填写有助于找到真正合适的另一半。",
+    "ageSection": "年龄范围",
+    "minAge": "最小年龄",
+    "maxAge": "最大年龄",
+    "faithSection": "信仰要求",
+    "requireBaptized": "要求对方已受洗",
+    "requireRegularChurch": "要求固定聚会",
+    "minFaithMaturity": "最低信仰成熟度",
+    "preferredDenom": "偏好宗派（可多选）",
+    "denomOptions": [
+      "Baptist",
+      "Presbyterian",
+      "Methodist",
+      "Evangelical Free",
+      "Anglican",
+      "Catholic",
+      "无偏好"
+    ],
+    "familySection": "家庭观念",
+    "openToChildrenFromPrev": "接受对方有孩子",
+    "desiredChildren": "希望生育孩子数量",
+    "childrenOptions": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4+",
+      "无所谓"
+    ],
+    "locationSection": "地区偏好",
+    "preferredLocations": "偏好地区（可多选）",
+    "requireSameCountry": "必须同国",
+    "locationOptions": [
+      "澳洲",
+      "加拿大",
+      "美国",
+      "新加坡",
+      "马来西亚",
+      "香港",
+      "英国",
+      "无偏好"
+    ],
+    "cultureSection": "语言与文化",
+    "languagePref": "语言偏好",
+    "languageOptions": {
+      "Mandarin": "普通话",
+      "Cantonese": "广东话",
+      "English": "英语",
+      "Both": "中英均可",
+      "NoPreference": "无偏好"
+    },
+    "heritagePreference": "文化背景偏好",
+    "heritagePlaceholder": "例如：华人、马来西亚华裔、无偏好",
+    "educationSection": "教育与职业",
+    "minEducation": "最低学历",
+    "educationOptions": {
+      "HighSchool": "高中",
+      "Diploma": "大专",
+      "Bachelor": "本科",
+      "Masters": "硕士",
+      "PhD": "博士",
+      "NoPreference": "无偏好"
+    },
+    "careerExpectation": "职业期望（可选）",
+    "careerPlaceholder": "例如：稳定职业，愿意支持事奉…",
+    "missionSection": "人生使命对齐",
+    "missionAlignment": "希望对方的人生使命方向",
+    "openToFullTimeMission": "愿意支持全职事奉/宣教",
+    "personalitySection": "性格与个人特质",
+    "personalityNotes": "希望对方的性格特点",
+    "personalityPlaceholder": "例如：温柔、有领导力、善于倾听、热爱家庭…",
+    "dealbreakers": "绝对不接受的条件 (Dealbreakers)",
+    "dealbreakersPlaceholder": "例如：吸烟、不愿生育、无固定聚会…",
+    "additionalNotes": "其他说明",
+    "additionalPlaceholder": "任何其他希望对方了解的偏好…",
+    "savePrefs": "保存偏好设置",
+    "saveSuccess": "✅ 理想伴侣偏好已保存！AI将据此优化您的匹配结果。"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "恩約 CovenantPath",
+  "short_name": "CovenantPath",
+  "description": "Building Christ-Centred Families for Chinese Communities Worldwide",
+  "start_url": "/zh-CN",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7C3AED",
+  "lang": "zh-Hans",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "common": {
+    "appName": "GraceCovenant",
+    "tagline": "그리스도의 사랑 안에서 믿음의 동반자를 찾으세요",
+    "mission": "중국계 커뮤니티가 그리스도 중심의 결혼, 가정, 제자훈련을 세울 수 있도록 돕습니다",
+    "save": "저장",
+    "submit": "제출",
+    "cancel": "취소",
+    "loading": "불러오는 중...",
+    "error": "오류가 발생했습니다",
+    "success": "성공!",
+    "required": "필수",
+    "anonymous": "익명"
+  },
+  "nav": {
+    "home": "홈",
+    "matches": "매칭",
+    "prayer": "기도벽",
+    "testimony": "결혼 간증",
+    "courses": "혼전 교육",
+    "membership": "멤버십",
+    "profile": "내 프로필",
+    "login": "로그인",
+    "register": "회원가입",
+    "logout": "로그아웃",
+    "lang_en": "English",
+    "lang_zh_cn": "简体",
+    "lang_zh_tw": "繁體"
+  },
+  "home": {
+    "heroTitle": "✝ GraceCovenant",
+    "heroSubtitle": "그리스도의 사랑 안에서 믿음의 동반자를 찾으세요",
+    "heroDesc": "중국계 커뮤니티가 그리스도 중심의 결혼, 가정, 제자훈련을 세울 수 있도록 돕습니다",
+    "ctaStart": "매칭 시작",
+    "ctaLearnMore": "더 알아보기",
+    "stats": {
+      "members": "등록 회원",
+      "matched": "성사된 커플",
+      "testimonies": "결혼 간증",
+      "churches": "협력 교회"
+    },
+    "features": {
+      "title": "핵심 기능",
+      "church": { "title": "교회 인증", "desc": "담임목사 또는 교회 추천을 통해 신뢰도를 높입니다" },
+      "ai": { "title": "AI 매칭", "desc": "신앙 성숙도, 성격, 가족 가치관 기반 매칭" },
+      "prayer": { "title": "기도 커뮤니티", "desc": "함께 기도하며 서로 격려합니다" },
+      "courses": { "title": "혼전 교육 과정", "desc": "Focus on the Family 교육 과정" },
+      "global": { "title": "글로벌 중국계 커뮤니티", "desc": "호주 · 캐나다 · 미국 · 싱가포르" },
+      "testimony": { "title": "결혼 간증", "desc": "언약 관계 안에서 하나님의 은혜 이야기" }
+    },
+    "verse": "\"너는 마음을 다하여 여호와를 신뢰하고 네 명철을 의지하지 말라.\" — 잠언 3:5",
+    "viewAll": "전체 보기",
+    "search": {
+      "countryPlaceholder": "국가를 선택하세요",
+      "findMatches": "매칭 찾기"
+    }
+  },
+  "matches": {
+    "title": "매칭",
+    "subtitle": "신앙 성숙도, 가족 비전, 삶의 소명에 기반한 스마트 매칭",
+    "loginRequired": "매칭을 보려면 로그인하세요",
+    "filter": {
+      "title": "필터",
+      "ageRange": "나이 범위",
+      "location": "지역",
+      "denomination": "교단",
+      "all": "전체",
+      "allGenders": "전체",
+      "brother": "형제",
+      "sister": "자매"
+    },
+    "found": "{count}명의 매칭 결과",
+    "matchScore": "AI 매칭 점수",
+    "connect": "연결하기",
+    "pray": "위해 기도하기",
+    "openRelocation": "이전 가능",
+    "fixed": "거주지 고정",
+    "baptised": "세례",
+    "sent": "전송됨",
+    "prayed": "기도함"
+  },
+  "prayer": {
+    "title": "기도벽",
+    "verse": "\"무엇이든지 기도하고 구하는 것은 받은 줄로 믿으라.\" — 마가복음 11:24",
+    "submitTitle": "기도 제목 나누기",
+    "prayerLabel": "기도 제목",
+    "prayerPlaceholder": "기도 제목을 나눠주세요...",
+    "category": "카테고리",
+    "categories": {
+      "marriage": "결혼", "family": "가정", "faith": "신앙 성장",
+      "general": "일반", "platform": "플랫폼"
+    },
+    "amen": "기도",
+    "praying": "기도 중",
+    "submitted": "기도 제목이 제출되었습니다. 감사합니다."
+  },
+  "testimony": {
+    "title": "결혼 간증",
+    "verse": "\"그가 행하신 일을 만민 중에 알게 하라.\" — 시편 105:1",
+    "count": "간증 {count}편",
+    "verified": "인증됨", "pending": "검토 중",
+    "shareTitle": "간증 나누기",
+    "coupleNames": "커플 이름", "city": "도시", "weddingYear": "결혼 연도",
+    "favouriteVerse": "좋아하는 성경 구절", "story": "이야기",
+    "storyPlaceholder": "하나님이 어떻게 만나게 해주셨는지 나눠주세요...",
+    "submitSuccess": "나눠주셔서 감사합니다. 검토 후 게시됩니다."
+  },
+  "courses": {
+    "title": "혼전 교육 과정",
+    "subtitle": "Focus on the Family과 GraceCovenant가 제공합니다",
+    "verse": "\"두 사람이 뜻이 맞지 않고서야 어찌 동행하겠느냐?\" — 아모스 3:3",
+    "enrol": "등록",
+    "enrolled": "등록 완료! 곧 과정 링크를 공유해 드리겠습니다."
+  },
+  "profile": {
+    "title": "내 프로필",
+    "spiritual": {
+      "title": "신앙 프로필", "denomination": "교단", "church": "교회",
+      "baptismYear": "세례 연도", "regularAttendance": "정기 예배 참석",
+      "ministry": "사역", "faithMaturity": "신앙 성숙도",
+      "maturityLevels": { "new": "새신자", "growing": "성장 중", "mature": "성숙", "leader": "리더" }
+    },
+    "relationship": {
+      "title": "관계 프로필", "age": "나이", "location": "지역",
+      "marriageHistory": "결혼 이력", "hasChildren": "자녀 유무",
+      "familyVision": "가정 비전",
+      "familyVisionPlaceholder": "그리스도 중심 가정에 대한 비전을 나눠주세요...",
+      "lifeMission": "삶의 소명", "openRelocation": "이전 가능",
+      "histories": { "never": "미혼", "divorced": "이혼", "widowed": "사별" }
+    },
+    "verification": {
+      "title": "교회 인증",
+      "info": "교회 회원 증명 또는 담임목사 추천서를 업로드하여 인증 배지를 받으세요",
+      "certType": "인증 유형", "upload": "파일 업로드", "submitVerification": "인증 제출",
+      "successMsg": "인증이 제출되었습니다. 보통 3 영업일 내에 완료됩니다.",
+      "types": { "membership": "교회 회원 증명", "pastor": "담임목사 추천서", "baptism": "세례 증명서" }
+    }
+  },
+  "auth": {
+    "loginTitle": "로그인", "registerTitle": "회원가입",
+    "email": "이메일", "password": "비밀번호", "passwordHint": "비밀번호 (8자 이상)",
+    "fullName": "이름", "gender": "성별", "genderBrother": "형제", "genderSister": "자매",
+    "country": "국가", "church": "교회 (선택)",
+    "agree1": "✝ 그리스도 중심의 가치관으로 이 플랫폼을 사용하겠습니다",
+    "agree2": "💍 진지하게 결혼을 준비하고 있습니다",
+    "agree3": "📋 개인정보 보호정책에 동의합니다",
+    "loginBtn": "로그인", "registerBtn": "회원가입",
+    "noAccount": "계정이 없으신가요?", "hasAccount": "이미 계정이 있으신가요?",
+    "welcome": "다시 오셨군요",
+    "loginSuccess": "로그인 성공!",
+    "registerSuccess": "가입이 완료되었습니다! 프로필을 완성해 주세요.",
+    "fillAllFields": "모든 필수 항목을 입력하고 약관에 동의해 주세요"
+  },
+  "membership": {
+    "title": "멤버십 플랜",
+    "subtitle": "모든 기능은 영원히 무료입니다. 후원자들이 플랫폼 운영을 도와주십니다.",
+    "free": {
+      "name": "무료 회원", "price": "무료", "desc": "모든 기능 무제한 이용",
+      "features": ["매칭 검색 및 연결", "기도벽", "결혼 간증", "혼전 교육 과정", "교회 인증 배지"]
+    },
+    "supporter": {
+      "name": "후원 회원", "price": "월 $5", "desc": "플랫폼 운영을 지원합니다",
+      "features": ["무료 플랜의 모든 기능", "프로필에 후원 배지", "우선 매칭 추천", "호스팅 비용 지원", "언제든 취소 가능"]
+    },
+    "church": {
+      "name": "협력 교회", "price": "무료", "desc": "싱글 성도를 섬기는 교회를 위해",
+      "features": ["플랫폼 교회 목록 등재", "회원용 인증된 교회 배지", "회원에게 행사 공지", "교회 싱글 일괄 초대"]
+    },
+    "currentPlan": "현재 플랜", "getStarted": "후원하기", "contactUs": "문의하기",
+    "processing": "처리 중...",
+    "thankYou": "후원해 주셔서 감사합니다! 후원 배지가 곧 프로필에 표시됩니다.",
+    "canceled": "결제가 취소되었습니다. 언제든 다시 시도하실 수 있습니다.",
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": "GraceCovenant는 정말 무료인가요?",
+      "a1": "네 — 모든 핵심 기능이 무료입니다.",
+      "q2": "왜 후원 회원이 되어야 하나요?",
+      "a2": "월 $5는 이메일, 호스팅, 향후 기능 개발 비용을 충당합니다. 언제든 취소 가능합니다.",
+      "q3": "협력 교회는 어떻게 신청하나요?",
+      "a3": "hello@gracecovenant.org로 교회명과 담임목사 연락처를 보내주세요."
+    }
+  },
+  "footer": {
+    "tagline": "전 세계 중국계 커뮤니티를 위한 그리스도 중심 가정 세우기",
+    "copyright": "모든 성도는 그리스도 중심 가정을 누릴 자격이 있습니다.",
+    "platform": "플랫폼",
+    "inspiredBy": "SilverConnect-Global에서 영감을 받았습니다",
+    "verse": "\"서로 사랑하라. 내가 너희를 사랑한 것 같이 너희도 서로 사랑하라.\"",
+    "verseRef": "— 요한복음 13:34",
+    "phledgerDesc": "PHLedger는 현대적인 데이터 플랫폼 설계 및 구현을 지원합니다."
+  },
+  "header": {
+    "verse": "\"두 사람이 한 사람보다 나음은... 세 겹 줄은 쉽게 끊어지지 아니하느니라.\" — 전도서 4:9,12"
+  },
+  "idVerify": {
+    "title": "신원 인증", "subtitle": "신원 인증은 신뢰를 구축합니다. 모든 서류는 암호화됩니다.",
+    "overallStatus": "인증 상태", "pending": "검토 중", "verified": "인증됨 ✅", "rejected": "미승인 ❌",
+    "dlSection": "운전면허증", "dlNumber": "면허증 번호", "dlState": "발급 주/도", "dlExpiry": "만료일", "dlUpload": "앞뒤 업로드",
+    "passportSection": "여권", "passportNumber": "여권 번호", "passportCountry": "발급 국가", "passportExpiry": "만료일", "passportUpload": "첫 페이지 업로드",
+    "visaSection": "비자", "visaType": "비자 유형",
+    "visaTypes": { "PR": "영주권", "Citizen": "시민권", "StudentVisa": "학생 비자", "WorkVisa": "취업 비자", "SpouseVisa": "배우자 비자", "Other": "기타" },
+    "visaNumber": "비자 번호", "visaExpiry": "만료일", "visaUpload": "비자 페이지 업로드",
+    "baptismSection": "세례 증명서", "isBaptized": "세례를 받았습니다", "baptismYear": "세례 연도", "baptismChurch": "세례 교회",
+    "baptismUpload": "세례 증명서 업로드 (선택)", "baptismNote": "세례 증명서는 인증 배지 및 매칭 우선순위에 도움이 됩니다.",
+    "submitId": "신원 인증 제출", "submitSuccess": "✅ 제출 완료. 3 영업일 내 검토됩니다.",
+    "privacy": "🔒 신원 서류는 인증 목적으로만 사용됩니다."
+  },
+  "partnerPrefs": {
+    "title": "이상형 조건", "subtitle": "AI가 더 정확하게 매칭할 수 있도록 솔직하게 작성해 주세요.",
+    "ageSection": "나이 범위", "minAge": "최소 나이", "maxAge": "최대 나이",
+    "faithSection": "신앙 요건", "requireBaptized": "세례받은 분만", "requireRegularChurch": "정기 예배 참석 필수",
+    "minFaithMaturity": "최소 신앙 성숙도", "preferredDenom": "선호 교단 (복수 선택 가능)",
+    "denomOptions": ["Baptist", "Presbyterian", "Methodist", "Evangelical Free", "Anglican", "Catholic", "Non-Denominational"],
+    "locationSection": "지역", "countriesConsidered": "고려 가능한 국가", "openToRelocation": "이전 가능",
+    "savePrefs": "조건 저장", "saveSuccess": "이상형 조건이 저장되었습니다!"
+  }
+}

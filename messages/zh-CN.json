@@ -1,0 +1,399 @@
+{
+  "common": {
+    "appName": "恩约 GraceCovenant",
+    "tagline": "在基督的爱中，寻找同路人",
+    "mission": "帮助华人在基督的爱中建立婚姻、家庭与门徒生命",
+    "save": "保存",
+    "submit": "提交",
+    "cancel": "取消",
+    "loading": "加载中...",
+    "error": "出错了",
+    "success": "成功！",
+    "required": "必填项",
+    "anonymous": "匿名"
+  },
+  "nav": {
+    "home": "主页",
+    "matches": "配对",
+    "prayer": "祷告墙",
+    "testimony": "见证",
+    "courses": "婚前课程",
+    "membership": "会员",
+    "profile": "我的档案",
+    "login": "登录",
+    "register": "注册",
+    "logout": "登出",
+    "lang_en": "English",
+    "lang_zh_cn": "简体",
+    "lang_zh_tw": "繁體"
+  },
+  "home": {
+    "heroTitle": "✝ 恩约 GraceCovenant",
+    "heroSubtitle": "在基督的爱中，寻找同路人",
+    "heroDesc": "帮助华人在基督的爱中建立婚姻、家庭与门徒生命",
+    "ctaStart": "开始寻找",
+    "ctaLearnMore": "了解更多",
+    "stats": {
+      "members": "注册会员",
+      "matched": "成功配对",
+      "testimonies": "婚姻见证",
+      "churches": "合作教会"
+    },
+    "features": {
+      "title": "核心功能",
+      "church": {
+        "title": "教会认证",
+        "desc": "通过牧者推荐提升可信度"
+      },
+      "ai": {
+        "title": "AI 配对",
+        "desc": "基于信仰、人格、家庭观的智能匹配"
+      },
+      "prayer": {
+        "title": "祷告社群",
+        "desc": "共同守望，彼此代禱"
+      },
+      "courses": {
+        "title": "婚前课程",
+        "desc": "Focus on the Family 课程体系"
+      },
+      "global": {
+        "title": "全球华人",
+        "desc": "澳洲·加拿大·美国·新加坡"
+      },
+      "testimony": {
+        "title": "婚姻见证",
+        "desc": "分享神恩典中的爱情故事"
+      }
+    },
+    "verse": "「你要专心仰赖耶和华，不可倚靠自己的聪明。」 — 箴言 3:5",
+    "viewAll": "查看全部",
+    "search": {
+      "countryLabel": "你的国家",
+      "countryPlaceholder": "选择你的国家",
+      "languageLabel": "语言",
+      "findMatches": "开始寻找"
+    }
+  },
+  "matches": {
+    "title": "配对",
+    "subtitle": "基于信仰成熟度、家庭观与人生使命的智能配对",
+    "loginRequired": "请先登录以查看配对",
+    "filter": {
+      "title": "筛选条件",
+      "ageRange": "年龄范围",
+      "location": "地区",
+      "denomination": "宗派",
+      "all": "全部",
+      "allGenders": "全部",
+      "brother": "弟兄",
+      "sister": "姐妹"
+    },
+    "found": "找到 {count} 位匹配",
+    "matchScore": "AI 匹配度",
+    "connect": "联系",
+    "pray": "为Ta祷告",
+    "openRelocation": "愿意迁居",
+    "fixed": "固定城市",
+    "baptised": "受洗",
+    "sent": "已发送",
+    "prayed": "已代祷"
+  },
+  "prayer": {
+    "title": "祷告墙",
+    "verse": "「凡你们祷告祈求的，只要信，就必得着。」 — 马可福音 11:24",
+    "submitTitle": "提交祷告请求",
+    "prayerLabel": "祷告内容",
+    "prayerPlaceholder": "请分享你的祷告需要...",
+    "category": "类别",
+    "categories": {
+      "marriage": "婚恋",
+      "family": "家庭",
+      "faith": "信仰成长",
+      "general": "General",
+      "platform": "Platform"
+    },
+    "amen": "阿们",
+    "praying": "人在代禱",
+    "submitted": "祷告请求已提交！感谢你的守望。"
+  },
+  "testimony": {
+    "title": "婚姻见证",
+    "verse": "「你们要将他的事传扬在万民中。」 — 诗篇 105:1",
+    "count": "{count} 个见证",
+    "verified": "已认证",
+    "pending": "审核中",
+    "shareTitle": "分享你的见证",
+    "coupleNames": "你们的名字",
+    "city": "城市",
+    "weddingYear": "婚礼年份",
+    "favouriteVerse": "喜爱的经文",
+    "story": "见证故事",
+    "storyPlaceholder": "请分享神如何带领你们走在一起...",
+    "submitSuccess": "感谢分享！见证将在审核后发布。"
+  },
+  "courses": {
+    "title": "婚前课程",
+    "subtitle": "由 Focus on the Family 及 CovenantPath 提供",
+    "verse": "「二人同行，若不同心，岂能相合呢？」 — 阿摩司书 3:3",
+    "enrol": "报名",
+    "enrolled": "已报名！即将发送课程链接。"
+  },
+  "profile": {
+    "title": "我的档案",
+    "spiritual": {
+      "title": "属灵档案",
+      "denomination": "宗派",
+      "church": "所属教会",
+      "baptismYear": "受洗年份",
+      "regularAttendance": "固定聚会",
+      "ministry": "服事",
+      "faithMaturity": "信仰成熟度",
+      "maturityLevels": {
+        "new": "初信",
+        "growing": "成长中",
+        "mature": "成熟",
+        "leader": "领袖"
+      }
+    },
+    "relationship": {
+      "title": "婚恋档案",
+      "age": "年龄",
+      "location": "所在地",
+      "marriageHistory": "婚史",
+      "hasChildren": "有子女",
+      "familyVision": "家庭愿景",
+      "familyVisionPlaceholder": "描述您理想的家庭模式...",
+      "lifeMission": "人生使命",
+      "openRelocation": "愿意迁居",
+      "histories": {
+        "never": "未婚",
+        "divorced": "离异",
+        "widowed": "丧偶"
+      }
+    },
+    "verification": {
+      "title": "教会认证",
+      "info": "上传教会证明或牧者推荐信，获得 ✅ 认证标志",
+      "certType": "认证类型",
+      "upload": "上传文件",
+      "submitVerification": "提交认证",
+      "successMsg": "✅ 认证文件已提交，在3个工作日内审核。",
+      "types": {
+        "membership": "教会会员证明",
+        "pastor": "牧者推荐信",
+        "baptism": "受洗证书"
+      }
+    }
+  },
+  "auth": {
+    "loginTitle": "登录",
+    "registerTitle": "注册",
+    "email": "邮箱",
+    "password": "密码",
+    "passwordHint": "密码（8个字符以上）",
+    "fullName": "姓名",
+    "gender": "性别",
+    "genderBrother": "弟兄",
+    "genderSister": "姐妹",
+    "country": "所在国",
+    "church": "所属教会（可选）",
+    "agree1": "✝ 我以基督信仰为核心价值使用此平台",
+    "agree2": "💍 我以婚姻为目的使用此平台",
+    "agree3": "📋 我同意隐私政策",
+    "loginBtn": "登录",
+    "registerBtn": "注册",
+    "noAccount": "还没有账号？",
+    "hasAccount": "已有账号？",
+    "welcome": "欢迎回来",
+    "loginSuccess": "登录成功！",
+    "registerSuccess": "注册成功！请完善您的档案。",
+    "fillAllFields": "请填写所有必填项并同意条款"
+  },
+  "membership": {
+    "title": "会员计划",
+    "subtitle": "所有功能永久免费。支持者帮助平台持续运营。",
+    "free": {
+      "name": "免费会员",
+      "price": "免费",
+      "desc": "完整访问所有功能",
+      "features": [
+        "浏览和连接配对",
+        "祷告墙",
+        "婚姻见证",
+        "婚前课程",
+        "教会认证徽章"
+      ]
+    },
+    "supporter": {
+      "name": "支持者",
+      "price": "$5 / 月",
+      "desc": "帮助平台持续运营",
+      "features": [
+        "包含免费版所有功能",
+        "支持者徽章",
+        "优先配对建议",
+        "帮助覆盖托管费用",
+        "随时取消"
+      ]
+    },
+    "church": {
+      "name": "合作教会",
+      "price": "免费",
+      "desc": "为服事单身信徒的教会",
+      "features": [
+        "教会在平台上展示",
+        "会友获得认证徽章",
+        "向会友发布活动",
+        "批量邀请教会单身"
+      ]
+    },
+    "currentPlan": "当前计划",
+    "getStarted": "立即支持",
+    "contactUs": "联系我们",
+    "processing": "处理中...",
+    "thankYou": "感谢您的支持！支持者徽章将很快显示在您的个人档案上。",
+    "canceled": "付款已取消。您可以随时再试 — 所有功能仍然免费。",
+    "faq": {
+      "title": "常见问题",
+      "q1": "GraceCovenant 真的免费吗？",
+      "a1": "是的 — 所有核心功能都是免费的。我们相信每个基督徒都应该能够加入以基督为中心的社区。",
+      "q2": "为什么成为支持者？",
+      "a2": "您的 $5/月 帮助覆盖邮件、托管和未来功能开发。您还将获得徽章和优先配对。随时取消。",
+      "q3": "如何成为合作教会？",
+      "a3": "请联系 hello@gracecovenant.org，提供教会名称和牧者联系方式。认证需 3-5 个工作日。"
+    }
+  },
+  "footer": {
+    "tagline": "为全球华人社区建立以基督为中心的家庭",
+    "copyright": "每一个基督徒都值得拥有以基督为中心的家庭。",
+    "platform": "平台",
+    "inspiredBy": "灵感来自 SilverConnect-Global",
+    "verse": "「你们要彼此相爱，正如我爱你们一样。」",
+    "verseRef": "— 约翰福音 13:34",
+    "phledgerDesc": "PHLedger 帮助组织设计和交付现代数据平台 — Databricks Lakehouse、AI就绪数据基础、财务报告自动化和数据 DevOps。"
+  },
+  "header": {
+    "verse": "「二人总比一人好…三股合成的绳子不容易折断。」 — 传道书 4:9,12"
+  },
+  "idVerify": {
+    "title": "身份验证",
+    "subtitle": "身份验证有助于建立信任，保护平台安全。所有文件均加密存储，仅用于验证目的。",
+    "overallStatus": "验证状态",
+    "pending": "待审核",
+    "verified": "已验证 ✅",
+    "rejected": "未通过 ❌",
+    "dlSection": "驾照（本地居民）",
+    "dlNumber": "驾照号码",
+    "dlState": "签发州/省",
+    "dlExpiry": "到期日期",
+    "dlUpload": "上传驾照正反面",
+    "passportSection": "护照（所有人，特别是国际用户）",
+    "passportNumber": "护照号码",
+    "passportCountry": "签发国家",
+    "passportExpiry": "到期日期",
+    "passportUpload": "上传护照首页",
+    "visaSection": "签证（非公民/永久居民）",
+    "visaType": "签证类型",
+    "visaTypes": {
+      "PR": "永久居民 (PR)",
+      "Citizen": "公民",
+      "StudentVisa": "学生签证",
+      "WorkVisa": "工作签证",
+      "SpouseVisa": "配偶签证",
+      "Other": "其他签证"
+    },
+    "visaNumber": "签证号码",
+    "visaExpiry": "签证到期日",
+    "visaUpload": "上传签证页",
+    "baptismSection": "受洗证书（如适用）",
+    "isBaptized": "我已受洗",
+    "baptismYear": "受洗年份",
+    "baptismChurch": "受洗教会",
+    "baptismUpload": "上传受洗证书（可选）",
+    "baptismNote": "受洗证书有助于显示 ✝ 认证标志，提升配对优先级。",
+    "submitId": "提交身份验证",
+    "submitSuccess": "✅ 身份验证文件已提交，将在3个工作日内审核。",
+    "privacy": "🔒 您的身份文件仅用于平台身份验证，绝不与第三方共享。"
+  },
+  "partnerPrefs": {
+    "title": "理想伴侣偏好",
+    "subtitle": "帮助我们的AI更准确地为您匹配志同道合的人。诚实填写有助于找到真正合适的另一半。",
+    "ageSection": "年龄范围",
+    "minAge": "最小年龄",
+    "maxAge": "最大年龄",
+    "faithSection": "信仰要求",
+    "requireBaptized": "要求对方已受洗",
+    "requireRegularChurch": "要求固定聚会",
+    "minFaithMaturity": "最低信仰成熟度",
+    "preferredDenom": "偏好宗派（可多选）",
+    "denomOptions": [
+      "Baptist",
+      "Presbyterian",
+      "Methodist",
+      "Evangelical Free",
+      "Anglican",
+      "Catholic",
+      "无偏好"
+    ],
+    "familySection": "家庭观念",
+    "openToChildrenFromPrev": "接受对方有孩子",
+    "desiredChildren": "希望生育孩子数量",
+    "childrenOptions": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4+",
+      "无所谓"
+    ],
+    "locationSection": "地区偏好",
+    "preferredLocations": "偏好地区（可多选）",
+    "requireSameCountry": "必须同国",
+    "locationOptions": [
+      "澳洲",
+      "加拿大",
+      "美国",
+      "新加坡",
+      "马来西亚",
+      "香港",
+      "英国",
+      "无偏好"
+    ],
+    "cultureSection": "语言与文化",
+    "languagePref": "语言偏好",
+    "languageOptions": {
+      "Mandarin": "普通话",
+      "Cantonese": "广东话",
+      "English": "英语",
+      "Both": "中英均可",
+      "NoPreference": "无偏好"
+    },
+    "heritagePreference": "文化背景偏好",
+    "heritagePlaceholder": "例如：华人、马来西亚华裔、无偏好",
+    "educationSection": "教育与职业",
+    "minEducation": "最低学历",
+    "educationOptions": {
+      "HighSchool": "高中",
+      "Diploma": "大专",
+      "Bachelor": "本科",
+      "Masters": "硕士",
+      "PhD": "博士",
+      "NoPreference": "无偏好"
+    },
+    "careerExpectation": "职业期望（可选）",
+    "careerPlaceholder": "例如：稳定职业，愿意支持事奉…",
+    "missionSection": "人生使命对齐",
+    "missionAlignment": "希望对方的人生使命方向",
+    "openToFullTimeMission": "愿意支持全职事奉/宣教",
+    "personalitySection": "性格与个人特质",
+    "personalityNotes": "希望对方的性格特点",
+    "personalityPlaceholder": "例如：温柔、有领导力、善于倾听、热爱家庭…",
+    "dealbreakers": "绝对不接受的条件 (Dealbreakers)",
+    "dealbreakersPlaceholder": "例如：吸烟、不愿生育、无固定聚会…",
+    "additionalNotes": "其他说明",
+    "additionalPlaceholder": "任何其他希望对方了解的偏好…",
+    "savePrefs": "保存偏好设置",
+    "saveSuccess": "✅ 理想伴侣偏好已保存！AI将据此优化您的匹配结果。"
+  }
+}

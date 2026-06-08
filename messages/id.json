@@ -1,0 +1,343 @@
+{
+  "common": {
+    "appName": "GraceCovenant",
+    "tagline": "Temukan pasangan seiman dalam kasih Kristus",
+    "mission": "Membantu komunitas Tionghoa membangun pernikahan dan keluarga berpusat pada Kristus",
+    "save": "Simpan",
+    "submit": "Kirim",
+    "cancel": "Batal",
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "success": "Berhasil!",
+    "required": "Wajib",
+    "anonymous": "Anonim"
+  },
+  "nav": {
+    "home": "Beranda",
+    "matches": "Perjodohan",
+    "prayer": "Dinding Doa",
+    "testimony": "Kesaksian",
+    "courses": "Kursus Pranikah",
+    "membership": "Keanggotaan",
+    "profile": "Profil Saya",
+    "login": "Masuk",
+    "register": "Daftar",
+    "logout": "Keluar",
+    "lang_en": "English",
+    "lang_zh_cn": "简体",
+    "lang_zh_tw": "繁體"
+  },
+  "home": {
+    "heroTitle": "✝ GraceCovenant",
+    "heroSubtitle": "Temukan pasangan seiman dalam kasih Kristus",
+    "heroDesc": "Membantu komunitas Tionghoa membangun pernikahan berpusat pada Kristus",
+    "ctaStart": "Mulai mencari",
+    "ctaLearnMore": "Pelajari lebih",
+    "stats": {
+      "members": "Anggota terdaftar",
+      "matched": "Pasangan berhasil",
+      "testimonies": "Kesaksian pernikahan",
+      "churches": "Gereja mitra"
+    },
+    "features": {
+      "title": "Fitur Utama",
+      "church": {
+        "title": "Verifikasi Gereja",
+        "desc": "Tingkatkan kepercayaan melalui rekomendasi pendeta"
+      },
+      "ai": {
+        "title": "Perjodohan AI",
+        "desc": "Berdasarkan kedewasaan iman dan nilai keluarga"
+      },
+      "prayer": {
+        "title": "Komunitas Doa",
+        "desc": "Berdoa bersama dan saling menguatkan"
+      },
+      "courses": {
+        "title": "Kursus Pranikah",
+        "desc": "Program Focus on the Family"
+      },
+      "global": {
+        "title": "Komunitas Tionghoa Global",
+        "desc": "Australia · Kanada · AS · Singapura"
+      },
+      "testimony": {
+        "title": "Kesaksian",
+        "desc": "Kisah kasih karunia Tuhan"
+      }
+    },
+    "verse": "“Percayalah kepada Tuhan dengan segenap hatimu.” — Amsal 3:5",
+    "viewAll": "Lihat semua",
+    "search": {
+      "countryPlaceholder": "Pilih negara Anda",
+      "findMatches": "Cari Perjodohan"
+    }
+  },
+  "matches": {
+    "title": "Perjodohan",
+    "subtitle": "Perjodohan cerdas berdasarkan kedewasaan iman dan visi keluarga",
+    "loginRequired": "Silakan masuk untuk melihat perjodohan",
+    "filter": {
+      "title": "Filter",
+      "ageRange": "Rentang usia",
+      "location": "Lokasi",
+      "denomination": "Denominasi",
+      "all": "Semua",
+      "allGenders": "Semua",
+      "brother": "Saudara",
+      "sister": "Saudari"
+    },
+    "found": "{count} perjodohan ditemukan",
+    "matchScore": "Skor AI",
+    "connect": "Hubungi",
+    "pray": "Doakan",
+    "openRelocation": "Terbuka pindah",
+    "fixed": "Lokasi tetap",
+    "baptised": "Dibaptis",
+    "sent": "Terkirim",
+    "prayed": "Didoakan"
+  },
+  "prayer": {
+    "title": "Dinding Doa",
+    "verse": "“Apa pun yang kamu minta dalam doa, percayalah.” — Markus 11:24",
+    "submitTitle": "Bagikan pokok doa",
+    "prayerLabel": "Pokok doa",
+    "prayerPlaceholder": "Bagikan kebutuhan doa Anda...",
+    "category": "Kategori",
+    "categories": {
+      "marriage": "Pernikahan",
+      "family": "Keluarga",
+      "faith": "Pertumbuhan Iman",
+      "general": "Umum",
+      "platform": "Platform"
+    },
+    "amen": "Doa",
+    "praying": "berdoa",
+    "submitted": "Pokok doa telah dikirim. Terima kasih."
+  },
+  "testimony": {
+    "title": "Kesaksian Pernikahan",
+    "verse": "“Beritakanlah perbuatan-Nya.” — Mazmur 105:1",
+    "count": "{count} kesaksian",
+    "verified": "Terverifikasi",
+    "pending": "Dalam peninjauan",
+    "shareTitle": "Bagikan kesaksian",
+    "coupleNames": "Nama pasangan",
+    "city": "Kota",
+    "weddingYear": "Tahun pernikahan",
+    "favouriteVerse": "Ayat favorit",
+    "story": "Cerita",
+    "storyPlaceholder": "Bagikan bagaimana Tuhan mempertemukan Anda...",
+    "submitSuccess": "Terima kasih. Akan diterbitkan setelah ditinjau."
+  },
+  "courses": {
+    "title": "Kursus Pranikah",
+    "subtitle": "Oleh Focus on the Family dan GraceCovenant",
+    "verse": "“Dapatkah dua orang berjalan bersama tanpa kesepakatan?” — Amos 3:3",
+    "enrol": "Daftar",
+    "enrolled": "Berhasil mendaftar!"
+  },
+  "profile": {
+    "title": "Profil Saya",
+    "spiritual": {
+      "title": "Profil Rohani",
+      "denomination": "Denominasi",
+      "church": "Gereja",
+      "baptismYear": "Tahun baptis",
+      "regularAttendance": "Ibadah rutin",
+      "ministry": "Pelayanan",
+      "faithMaturity": "Kedewasaan iman",
+      "maturityLevels": {
+        "new": "Percaya baru",
+        "growing": "Bertumbuh",
+        "mature": "Dewasa",
+        "leader": "Pemimpin"
+      }
+    },
+    "relationship": {
+      "title": "Profil Hubungan",
+      "age": "Usia",
+      "location": "Lokasi",
+      "marriageHistory": "Riwayat pernikahan",
+      "hasChildren": "Memiliki anak",
+      "familyVision": "Visi keluarga",
+      "familyVisionPlaceholder": "Jelaskan visi keluarga berpusat Kristus Anda...",
+      "lifeMission": "Panggilan hidup",
+      "openRelocation": "Terbuka pindah",
+      "histories": {
+        "never": "Belum menikah",
+        "divorced": "Cerai",
+        "widowed": "Janda/duda"
+      }
+    },
+    "verification": {
+      "title": "Verifikasi Gereja",
+      "info": "Unggah bukti keanggotaan gereja atau surat rekomendasi pendeta",
+      "certType": "Jenis verifikasi",
+      "upload": "Unggah file",
+      "submitVerification": "Kirim verifikasi",
+      "successMsg": "Verifikasi dikirim. Selesai dalam 3 hari kerja.",
+      "types": {
+        "membership": "Bukti keanggotaan gereja",
+        "pastor": "Surat rekomendasi pendeta",
+        "baptism": "Sertifikat baptis"
+      }
+    }
+  },
+  "auth": {
+    "loginTitle": "Masuk",
+    "registerTitle": "Daftar",
+    "email": "Email",
+    "password": "Kata sandi",
+    "passwordHint": "Kata sandi (8+ karakter)",
+    "fullName": "Nama lengkap",
+    "gender": "Jenis kelamin",
+    "genderBrother": "Saudara",
+    "genderSister": "Saudari",
+    "country": "Negara",
+    "church": "Gereja (opsional)",
+    "agree1": "✝ Saya akan menggunakan platform ini dengan nilai Kristus",
+    "agree2": "💍 Saya serius mencari pernikahan",
+    "agree3": "📋 Saya setuju dengan kebijakan privasi",
+    "loginBtn": "Masuk",
+    "registerBtn": "Daftar",
+    "noAccount": "Belum punya akun?",
+    "hasAccount": "Sudah punya akun?",
+    "welcome": "Selamat datang kembali",
+    "loginSuccess": "Berhasil masuk!",
+    "registerSuccess": "Pendaftaran berhasil! Silakan lengkapi profil.",
+    "fillAllFields": "Silakan lengkapi semua kolom wajib"
+  },
+  "membership": {
+    "title": "Paket Keanggotaan",
+    "subtitle": "Semua fitur gratis selamanya.",
+    "free": {
+      "name": "Anggota Gratis",
+      "price": "Gratis",
+      "desc": "Akses penuh semua fitur",
+      "features": [
+        "Cari perjodohan",
+        "Dinding doa",
+        "Kesaksian",
+        "Kursus pranikah",
+        "Lencana gereja"
+      ]
+    },
+    "supporter": {
+      "name": "Pendukung",
+      "price": "$5/bulan",
+      "desc": "Bantu jalankan platform",
+      "features": [
+        "Semua fitur Gratis",
+        "Lencana pendukung",
+        "Perjodohan prioritas",
+        "Bantu biaya hosting",
+        "Batal kapan saja"
+      ]
+    },
+    "church": {
+      "name": "Gereja Mitra",
+      "price": "Gratis",
+      "desc": "Untuk gereja melayani jemaat lajang",
+      "features": [
+        "Daftar gereja di platform",
+        "Lencana terverifikasi",
+        "Pengumuman acara",
+        "Undangan massal"
+      ]
+    },
+    "currentPlan": "Paket saat ini",
+    "getStarted": "Dukung sekarang",
+    "contactUs": "Hubungi kami",
+    "processing": "Memproses...",
+    "thankYou": "Terima kasih atas dukungan Anda!",
+    "canceled": "Pembayaran dibatalkan.",
+    "faq": {
+      "title": "Pertanyaan Umum",
+      "q1": "Apakah GraceCovenant benar-benar gratis?",
+      "a1": "Ya — semua fitur utama gratis.",
+      "q2": "Mengapa menjadi Pendukung?",
+      "a2": "$5/bulan membantu biaya hosting dan pengembangan.",
+      "q3": "Bagaimana menjadi Gereja Mitra?",
+      "a3": "Hubungi hello@gracecovenant.org."
+    }
+  },
+  "footer": {
+    "tagline": "Membangun keluarga berpusat Kristus untuk komunitas Tionghoa",
+    "copyright": "Setiap orang Kristen berhak memiliki keluarga berpusat Kristus.",
+    "platform": "Platform",
+    "inspiredBy": "Terinspirasi oleh SilverConnect-Global",
+    "verse": "“Kasihilah seorang akan seorang.”",
+    "verseRef": "— Yohanes 13:34",
+    "phledgerDesc": "PHLedger membantu organisasi merancang platform data modern."
+  },
+  "header": {
+    "verse": "“Berdua lebih baik dari seorang... tali tiga lembar tidak mudah putus.” — Pengkhotbah 4:9,12"
+  },
+  "idVerify": {
+    "title": "Verifikasi Identitas",
+    "subtitle": "Membangun kepercayaan. Semua dokumen terenkripsi.",
+    "overallStatus": "Status",
+    "pending": "Menunggu",
+    "verified": "Terverifikasi ✅",
+    "rejected": "Tidak disetujui ❌",
+    "dlSection": "SIM",
+    "dlNumber": "Nomor SIM",
+    "dlState": "Provinsi",
+    "dlExpiry": "Tanggal kadaluarsa",
+    "dlUpload": "Unggah depan & belakang",
+    "passportSection": "Paspor",
+    "passportNumber": "Nomor paspor",
+    "passportCountry": "Negara penerbit",
+    "passportExpiry": "Tanggal kadaluarsa",
+    "passportUpload": "Unggah halaman pertama",
+    "visaSection": "Visa",
+    "visaType": "Jenis visa",
+    "visaTypes": {
+      "PR": "Penduduk Tetap",
+      "Citizen": "Warga Negara",
+      "StudentVisa": "Visa pelajar",
+      "WorkVisa": "Visa kerja",
+      "SpouseVisa": "Visa pasangan",
+      "Other": "Lainnya"
+    },
+    "visaNumber": "Nomor visa",
+    "visaExpiry": "Kadaluarsa",
+    "visaUpload": "Unggah halaman visa",
+    "baptismSection": "Sertifikat baptis",
+    "isBaptized": "Saya telah dibaptis",
+    "baptismYear": "Tahun baptis",
+    "baptismChurch": "Gereja baptis",
+    "baptismUpload": "Unggah (opsional)",
+    "baptismNote": "Membantu lencana ✝ dan prioritas perjodohan.",
+    "submitId": "Kirim verifikasi",
+    "submitSuccess": "✅ Terkirim. 3 hari kerja.",
+    "privacy": "🔒 Dokumen hanya untuk verifikasi."
+  },
+  "partnerPrefs": {
+    "title": "Preferensi Pasangan",
+    "subtitle": "Bantu AI menjodohkan Anda dengan tepat.",
+    "ageSection": "Rentang usia",
+    "minAge": "Min",
+    "maxAge": "Maks",
+    "faithSection": "Syarat iman",
+    "requireBaptized": "Harus dibaptis",
+    "requireRegularChurch": "Ibadah rutin",
+    "minFaithMaturity": "Kedewasaan min",
+    "preferredDenom": "Denominasi pilihan",
+    "denomOptions": [
+      "Baptist",
+      "Presbyterian",
+      "Methodist",
+      "Evangelical Free",
+      "Anglican",
+      "Catholic",
+      "Non-Denominational"
+    ],
+    "locationSection": "Lokasi",
+    "countriesConsidered": "Negara dipertimbangkan",
+    "openToRelocation": "Terbuka pindah",
+    "savePrefs": "Simpan",
+    "saveSuccess": "Preferensi disimpan!"
+  }
+}

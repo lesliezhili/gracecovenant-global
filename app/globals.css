@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --primary: 263 70% 50%;      /* covenant-purple #7C3AED */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 158 64% 32%;   /* covenant-green #059669 */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 263 30% 96%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 38 92% 50%;        /* amber #F59E0B */
+    --accent-foreground: 222 47% 11%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 263 70% 50%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 222 47% 8%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+    --primary: 263 70% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 158 64% 40%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 217 32% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 38 92% 50%;
+    --accent-foreground: 222 47% 11%;
+    --border: 217 32% 17%;
+    --input: 217 32% 17%;
+    --ring: 263 70% 60%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground font-sans antialiased; }
+
+  /* Smooth scroll */
+  html { scroll-behavior: smooth; }
+}
+
+@layer components {
+  /* Hero gradient — covenant-purple to covenant-green */
+  .gradient-hero {
+    background: linear-gradient(135deg, #7C3AED 0%, #4F46E5 50%, #059669 100%);
+  }
+
+  /* Card variants */
+  .card-covenant {
+    @apply bg-white rounded-2xl p-6 shadow-md border border-gray-100 hover:shadow-lg transition-shadow duration-200;
+  }
+  .card-prayer {
+    @apply bg-gradient-to-br from-covenant-50 to-purple-50 rounded-xl p-5 border-l-4 border-covenant-600;
+  }
+  .card-testimony {
+    @apply bg-gradient-to-br from-grace-50 to-emerald-50 rounded-xl p-5 border-l-4 border-grace-600;
+  }
+  .card-verse {
+    @apply bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl p-4 border-l-4 border-amber-500 italic;
+  }
+
+  /* Faith badge */
+  .badge-faith {
+    @apply inline-block bg-gradient-to-r from-covenant-600 to-indigo-600 text-white text-xs px-3 py-1 rounded-full mr-1 mb-1;
+  }
+
+  /* Metric counter card */
+  .metric-card {
+    @apply bg-white rounded-xl p-6 text-center shadow-sm border border-gray-100;
+  }
+}
+
+/* Chinese font support */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+
+body:lang(zh) {
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+}
