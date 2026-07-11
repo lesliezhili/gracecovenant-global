@@ -263,13 +263,16 @@
     }
   },
   "footer": {
-    "tagline": "Building Christ-Centred Families for Chinese Communities Worldwide",
+    "tagline": "為全球華人社群建立以基督為中心的家庭",
     "copyright": "每一個基督徒都値得擁有以基督為中心的家庭。",
     "platform": "平台",
     "community": "社群",
     "freeStack": "免費技術棧",
     "inspiredBy": "靈感來自 SilverConnect-Global",
-    "poweredBy": "技術支援"
+    "poweredBy": "技術支援",
+    "verse": "「你們要彼此相愛，正如我愛你們一樣。」",
+    "verseRef": "— 約翰福音 13:34",
+    "phledgerDesc": "PHLedger 幫助組織設計和交付現代數據平台 — Databricks Lakehouse、AI 就緒數據基礎、財務報告自動化和數據 DevOps。"
   },
   "header": {
     "verse": "「二人總比一人好…三股合成的繩子不容易折斷。」 — 傳道書 4:9,12"

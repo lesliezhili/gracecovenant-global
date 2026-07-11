@@ -4,24 +4,43 @@
  */
 import { test, expect } from '@playwright/test'
 
+async function getLanguageSelect(page: import('@playwright/test').Page) {
+  const selects = page.locator('header select')
+
+  async function findVisibleSelect() {
+    const count = await selects.count()
+    for (let i = 0; i < count; i += 1) {
+      const select = selects.nth(i)
+      const hasLocaleOptions = await select.locator('option[value="zh-TW"]').count()
+      if (hasLocaleOptions > 0 && await select.isVisible()) return select
+    }
+    return null
+  }
+
+  const visibleSelect = await findVisibleSelect()
+  if (visibleSelect) return visibleSelect
+
+  await page.locator('header button').first().click()
+  const mobileSelect = await findVisibleSelect()
+  if (!mobileSelect) throw new Error('Language select not found')
+  return mobileSelect
+}
+
 test.describe('Language toggle', () => {
-  test('繁體 button on zh-CN switches to zh-TW', async ({ page }) => {
+  test('language select on zh-CN switches to zh-TW', async ({ page }) => {
     await page.goto('/zh-CN')
-    // Button shows '繁體' when currently on Simplified
-    const toggleBtn = page.locator('button', { hasText: '\u7e41\u9ad4' })
-    await expect(toggleBtn).toBeVisible()
-    await toggleBtn.click()
+    const languageSelect = await getLanguageSelect(page)
+    await languageSelect.selectOption('zh-TW')
     // Should land on /zh-TW
     await expect(page).toHaveURL(/\/zh-TW/)
     const lang = await page.locator('html').getAttribute('lang')
     expect(lang).toBe('zh-Hant')
   })
 
-  test('简体 button on zh-TW switches to zh-CN', async ({ page }) => {
+  test('language select on zh-TW switches to zh-CN', async ({ page }) => {
     await page.goto('/zh-TW')
-    const toggleBtn = page.locator('button', { hasText: '\u7b80\u4f53' })
-    await expect(toggleBtn).toBeVisible()
-    await toggleBtn.click()
+    const languageSelect = await getLanguageSelect(page)
+    await languageSelect.selectOption('zh-CN')
     await expect(page).toHaveURL(/\/zh-CN/)
     const lang = await page.locator('html').getAttribute('lang')
     expect(lang).toBe('zh-Hans')
@@ -29,8 +48,8 @@ test.describe('Language toggle', () => {
 
   test('toggle preserves sub-path', async ({ page }) => {
     await page.goto('/zh-CN/matches')
-    const toggleBtn = page.locator('button', { hasText: '\u7e41\u9ad4' })
-    await toggleBtn.click()
+    const languageSelect = await getLanguageSelect(page)
+    await languageSelect.selectOption('zh-TW')
     await expect(page).toHaveURL(/\/zh-TW\/matches/)
   })
 })

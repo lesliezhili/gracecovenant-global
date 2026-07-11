@@ -4,7 +4,6 @@ import { useState } from 'react'
 import { Link } from '@/i18n/navigation'
 
 const COUNTRIES = ['Australia'] as const
-const DENOMINATIONS = ['Baptist','Presbyterian','Methodist','Evangelical Free','Anglican','Catholic','Others']
 
 export default function RegisterPage() {
   const t = useTranslations('auth')

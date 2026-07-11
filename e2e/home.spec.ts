@@ -4,6 +4,11 @@
  */
 import { test, expect } from '@playwright/test'
 
+async function openMobileMenuIfNeeded(page: import('@playwright/test').Page) {
+  if (await page.locator('header nav').isVisible()) return
+  await page.locator('header button').first().click()
+}
+
 test.describe('Home page — Simplified Chinese (zh-CN)', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/zh-CN')
@@ -15,13 +20,12 @@ test.describe('Home page — Simplified Chinese (zh-CN)', () => {
   })
 
   test('renders hero title with cross symbol', async ({ page }) => {
-    await expect(page.getByRole('heading', { name: /CovenantPath/ })).toBeVisible()
+    await expect(page.getByRole('heading', { name: /GraceCovenant/ })).toBeVisible()
   })
 
   test('navigation links are visible', async ({ page }) => {
-    // Desktop nav — check at least one link is rendered
-    const nav = page.locator('header nav')
-    await expect(nav.getByRole('link').first()).toBeVisible()
+    await openMobileMenuIfNeeded(page)
+    await expect(page.locator('header').getByRole('link', { name: /\u914d\u5bf9|\u914d\u5c0d|Matches/ })).toBeVisible()
   })
 
   test('CTA button is visible', async ({ page }) => {
@@ -29,7 +33,7 @@ test.describe('Home page — Simplified Chinese (zh-CN)', () => {
   })
 
   test('footer renders tagline', async ({ page }) => {
-    await expect(page.locator('footer')).toContainText('Christ-Centred')
+    await expect(page.locator('footer')).toContainText(/\u57fa\u7763|Christ-[Cc]entred/)
   })
 })
 
@@ -44,17 +48,17 @@ test.describe('Home page — Traditional Chinese (zh-TW)', () => {
   })
 
   test('renders hero title', async ({ page }) => {
-    await expect(page.getByRole('heading', { name: /CovenantPath/ })).toBeVisible()
+    await expect(page.getByRole('heading', { name: /GraceCovenant/ })).toBeVisible()
   })
 
   test('footer renders tagline', async ({ page }) => {
-    await expect(page.locator('footer')).toContainText('Christ-Centred')
+    await expect(page.locator('footer')).toContainText(/\u57fa\u7763|Christ-[Cc]entred/)
   })
 })
 
 test.describe('404 — invalid locale', () => {
   test('unknown locale returns 404', async ({ page }) => {
-    const res = await page.goto('/en')
+    const res = await page.goto('/fr')
     // Next.js notFound() returns 404
     expect(res?.status()).toBe(404)
   })
